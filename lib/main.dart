@@ -14,9 +14,10 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Unhexennium',
+      debugShowCheckedModeBanner: false,
+      title: 'SmartChemistryCalculator',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
       home: new HomePage(),
     );

@@ -1,5 +1,6 @@
 // Packages
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:unhexennium/tabs/equation.dart';
 import 'package:unhexennium/tabs/element.dart';
 import 'package:unhexennium/tabs/formula.dart';
@@ -52,8 +53,10 @@ class _HomePageState extends State<HomePage>
     return new Scaffold(
       // title
       appBar: new AppBar(
-        title: new Text("Unhexennium"),
+        title: new Text("ChemistryCalculator"),
         bottom: new TabBar(
+          indicatorColor: Colors.purple,
+          indicator: new BoxDecoration(color: Color(0x08232323)),
           controller: _tabController,
           tabs: Mode.values.map((Mode tabTitle) {
             return new Tab(
