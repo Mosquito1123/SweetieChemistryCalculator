@@ -1,15 +1,4 @@
-<div align="center">
-    <img src="README_assets/icon.png"/>
-    <br/>
-    <a href="https://play.google.com/store/apps/details?id=io.github.mapioi.unhexennium">
-        <img src="README_assets/download/android_google_play.png"/>
-    </a>
-    <!--There must be clear space surrounding the badge equal to one-quarter the height of the badge.-->
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://itunes.apple.com/us/app/unhexennium/id1383947062">
-        <img src="README_assets/download/ios_app_store.png"/>
-    </a>
-</div>
+
 
 # Unhexennium
 
